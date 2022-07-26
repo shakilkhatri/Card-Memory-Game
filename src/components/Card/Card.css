@@ -1,0 +1,20 @@
+.card {
+  height: 13vh;
+  box-shadow: 0 0 5px rgb(92, 116, 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(156, 170, 249);
+  color: black;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: rgb(255, 242, 0);
+  cursor: pointer;
+}
+
+img {
+  max-height: 100%;
+  overflow: hidden;
+}
